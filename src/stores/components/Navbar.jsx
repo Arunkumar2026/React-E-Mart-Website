@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -21,11 +22,21 @@ const Navbar = () => {
         </div>
         <div className="subMenu">
             <ul>
-                <li>Mobiles</li>
-                <li>Computers</li>
-                <li>Watches</li>
-                <li>Mens Wear</li>
-                <li>Woman Wear</li>
+                <Link to='/mobiles'>
+                    <li>Mobiles</li>
+                </Link>
+                <Link to='/computers'>
+                    <li>Computers</li>
+                </Link>
+                <Link to='/watches'>
+                    <li>Watches</li>
+                </Link>
+                <Link to='/menswear'>
+                    <li>Mens Wear</li>
+                </Link>
+                <Link to='/womanwear'>
+                    <li>Woman Wear</li>
+                </Link>
                 <li>Books</li>
                 <li>Furniture</li>
                 <li>Kitchen</li>
@@ -39,4 +50,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar 
