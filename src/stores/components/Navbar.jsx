@@ -37,13 +37,27 @@ const Navbar = () => {
                 <Link to='/womanwear'>
                     <li>Woman Wear</li>
                 </Link>
-                <li>Books</li>
-                <li>Furniture</li>
-                <li>Kitchen</li>
-                <li>Fridge</li>
-                <li>Speakers</li>
-                <li>Ac</li>
-                <li>TV's</li>
+                <Link to='/books'>
+                    <li>Books</li>
+                </Link>
+                <Link to='/furniture'>
+                    <li>Furniture</li>
+                </Link>
+                <Link to='/kitchen'>
+                    <li>Kitchen</li>
+                </Link>
+                <Link to='/fridge'>
+                    <li>Fridge</li>
+                </Link>
+                <Link to='/speakers'>
+                    <li>Speakers</li>
+                </Link>
+                <Link to='/ac'>
+                    <li>Ac</li>
+                </Link>
+                <Link to='/tv'>
+                    <li>TV's</li>
+                </Link>
             </ul>
         </div>
     </>
