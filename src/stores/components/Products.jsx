@@ -7,6 +7,11 @@ import Furniture from './Furniture'
 import Men from './Men'
 import Woman from './Woman'
 import Kitchen from './Kitchen'
+import Tv from './Tv'
+import Fridge from './Fridge'
+import Speakers from './Speakers'
+import Books from './Books'
+
 
 const Products = () => {
   return (
@@ -16,9 +21,13 @@ const Products = () => {
       <Watch/>
       <Men/>
       <Woman/>
+      <Books/>
       <Furniture/>
-      <Ac/>
       <Kitchen/>
+      <Fridge/>
+      <Speakers/>
+      <Ac/>
+      <Tv/>
     </div>
   )
 }
