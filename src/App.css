@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 body{
   background-color: aliceblue;
@@ -116,4 +116,24 @@ body{
   width: 10rem;
   border-radius: 5px;
   color: #fff;
+}
+.fullpage{
+  display: flex;
+}
+.pro-selected{
+  width: 15%;
+  border: 1px solid black;
+}
+.pro-input input{
+  margin: 5px;
+}
+
+ul li{
+  color: white;
+}
+.cart{
+  color: white;
+}
+.cart span{
+  color: orange;
 }
