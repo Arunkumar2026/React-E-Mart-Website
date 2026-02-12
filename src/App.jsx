@@ -16,6 +16,7 @@ import FridgePage from './stores/pages/FridgePage'
 import SpeakersPage from './stores/pages/SpeakersPage'
 import AcPage from './stores/pages/AcPage'
 import TvPage from './stores/pages/TvPage'
+import UserCart from './stores/UserCart'
 
 
 
@@ -37,8 +38,8 @@ const App = () => {
         <Route path='/ac' element={<AcPage/>} />
         <Route path='/tv' element={<TvPage/>} />
         {/* dynamic routing */}
-        <Route path='/mobile/:id' element={<MobileSingle/>}/>
-
+            <Route path='/mobile/:id' element={<MobileSingle/>}/>
+        <Route path='/cart' element={<UserCart/>} />
       </Routes>
     </div>
   )
